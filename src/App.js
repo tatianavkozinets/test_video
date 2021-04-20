@@ -18,20 +18,6 @@ function App() {
           }
         }}
       />
-      <ReactPlayer
-        url="http://d1xcg46xsgz8e.cloudfront.net/2/instructor_repository/4072/ALABAMA_WS2.mp4"
-        controls={true}
-        playsinline={true}
-        type="video/mp4"
-        config={{
-          file: {
-            attributes: {
-              disablePictureInPicture: true,
-              controlsList: "nodownload"
-            }
-          }
-        }}
-      />
     </div>
   );
 }
